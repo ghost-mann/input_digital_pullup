@@ -3,10 +3,10 @@
 
 
 void setup() {
-  pullup_init();
+  state_init();
 }
 
 void loop() {
-  pullup_loop();
+  state_loop();
 }
 

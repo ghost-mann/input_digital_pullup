@@ -4,8 +4,10 @@
 extern int pullup_buttonPin;
 
 void pullup_init();
-
 void pullup_loop();
+
+void state_init();
+void state_loop();
 
 
 #endif
